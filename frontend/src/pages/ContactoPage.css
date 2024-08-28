@@ -1,0 +1,91 @@
+/* ContactoPage.css */
+
+.contacto {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.bg-contact100 {
+    background: #e0e0e0;
+    padding: 50px 0;
+}
+
+.container-contact100 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.wrap-contact100 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.contact100-pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact100-pic img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario p {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0a0808;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.formulario input[type="submit"] {
+    background-color: burlywood;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #b49222;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.contacto p {
+    margin: 10px 0;
+}
+
+.titulo {   font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;}

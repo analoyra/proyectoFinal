@@ -1,0 +1,177 @@
+footer {
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  margin: 25px;
+  text-align: center;
+  font-weight: 100%;
+  color: burlywood;
+ padding-bottom: 15px;
+ padding-top: 15px;
+ box-shadow: 10px 10px 5px grey;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+
+footer p {
+
+  color: burlywood;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+
+
+footer svg {
+  margin-right: 10px; 
+}
+
+
+
+header {
+  background: black;
+  height: auto;
+  display: flex;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+
+  color: burlywood;
+  display: block;
+  font-size: 28px;
+  padding: 10px; 
+  margin-left: 25px;
+  margin-bottom: 3px;
+
+}
+
+
+header img {
+  border-radius: 90px;
+ 
+  margin-top: 10px;
+
+}
+
+header h2 {
+  color: burlywood;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  margin: 0 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
+.holder {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+header {
+  background: black;
+  height: auto;
+  display: flex;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+
+  color: burlywood;
+  display: block;
+  font-size: 28px;
+  padding: 10px; 
+  margin-left: 25px;
+  margin-bottom: 3px;
+
+}
+
+
+header img {
+  border-radius: 90px;
+ 
+  margin-top: 10px;
+
+}
+
+header h2 {
+  color: burlywood;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  margin: 0 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+body {
+  background-color: whitesmoke;
+  color: black; 
+}
+
+
+
+.holder {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+header {
+  background: black;
+  height: auto;
+ display: block;
+ margin: auto; 
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+
+  color: burlywood;
+  display: block;
+  font-size: 28px;
+  padding: 10px; 
+  margin-left: 25px;
+  margin-bottom: 3px;
+  text-align: center;
+
+}
+
+
+header img {
+  border-radius: 90px;
+  justify-content: center;
+  margin: auto;
+  display: block;
+
+}
+
+header h2 {
+  color: burlywood;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  margin: 0 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+.nosotros {
+    background: burlywood;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+}
+
+.nosotros p {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+.nosotros img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nosotros h2 {
+    padding: 10px;
+}
+
+.nosotros:nth-child(even) {
+    flex-direction: row-reverse;
+}

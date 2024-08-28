@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gestión del Administrador</title>
+</head>
+<body>
+  <div class="container" style="margin-top: 50px;">
+
+
+        <div class="container" style="margin:100px auto"> <div class="row">
+<div class="col-6 offset-3">
+<h4>Modificar articulo</h4>
+<form action="/admin/articulos/modificar" method="post" enctype="multipart/form-data" > 
+<div class="mb-3 row">
+    <input type="hidden" class="form-control" placeholder="Articulo" name="id" value="{{articulo.id}}">
+</div>
+<div class="mb-3 row">
+    <input type="text" class="form-control" placeholder="Articulo" name="articulo" value="{{articulo.articulo}}">
+</div>
+<div class="mb-3 row">
+    <input type="text" class="form-control" placeholder="Descripcion" name="descripcion" value="{{articulo.descripcion}}">
+</div>
+<div class="mb-3 row">
+    <input type="text" class="form-control" placeholder="Precio" name="precio" value="{{articulo.precio}}">
+</div>
+<div class="mb-3 row">
+    <label>Imagen:<input type="file" class="form-control"  name="imagen" id="imagen"></label>
+<label><input type="checkbox" name="img_eliminar" id="img_eliminar" value="1">Eliminar imagen actual?</label>
+<input type="hidden"  name="img_original" id="img_original" value="{{articulo.img_id}}">
+</div>
+<button type="submit" class="btn btn-dark">Guardar</button>
+</form>
+{{#if error}}
+<p>{{message}}</p>
+{{/if}}
+  </div>
+    </div>
+   
+  </div>
+</body>
+</html>

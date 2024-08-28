@@ -1,0 +1,30 @@
+footer {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin: 25px;
+    text-align: center;
+    font-weight: 100%;
+    color: burlywood;
+   padding-bottom: 15px;
+   padding-top: 15px;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+
+footer p {
+
+    color: burlywood;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+
+footer svg {
+    margin-right: 10px; 
+}
